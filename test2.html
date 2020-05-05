@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI 按钮（Button） - 复选框</title>
+  <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+  <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="jqueryui/style.css">
+  <script>
+  $(function() {
+    $( "#check" ).button();
+    $( "#format" ).buttonset();
+  });
+  </script>
+  <style>
+  #format { margin-top: 2em; }
+  </style>
+</head>
+<body>
+ 
+<input type="checkbox" id="check"><label for="check">切换</label>
+ 
+<div id="format">
+  <input type="checkbox" id="check1"><label for="check1">B</label>
+  <input type="checkbox" id="check2"><label for="check2">I</label>
+  <input type="checkbox" id="check3"><label for="check3">U</label>
+</div>
+ 
+ 
+</body>
+</html>
